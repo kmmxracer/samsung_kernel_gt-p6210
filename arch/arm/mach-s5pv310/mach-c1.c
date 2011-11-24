@@ -3590,7 +3590,7 @@ static void __init s5pv310_reserve(void)
 }
 #endif
 
-MACHINE_START(SMDKC210, "SMDKC210")
+MACHINE_START(SMDKC210, "SMDKV310")
 	/* Maintainer: Kukjin Kim <kgene.kim@samsung.com> */
 	.phys_io	= S3C_PA_UART & 0xfff00000,
 	.io_pg_offst	= (((u32)S3C_VA_UART) >> 18) & 0xfffc,
